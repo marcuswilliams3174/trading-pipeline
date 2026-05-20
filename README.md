@@ -53,3 +53,35 @@ trading-pipeline/
 ├── README.md
 ├── requirements.txt
 └── streamlit_app.py
+
+---
+
+##Tech Stack
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Streamlit
+
+##Key Design Principle
+
+Raw PnL should not be compounded directly.
+
+The framework normalizes strategy PnL into stable return series before equity construction to avoid leverage distortion and unstable compounding behavior.
+
+##Example Outputs
+- Log equity curve
+- Drawdown profile
+- Return distribution
+- Signal diagnostics dashboard
+
+##Future Improvements
+- Sharpe / Sortino analytics
+- Multi-asset portfolio support
+- Transaction cost modeling
+- Walk-forward validation
+- Regime-aware allocation
+- Live dashboard deployment
+
+##Running the Dashboard
+streamlit run streamlit_app.py
