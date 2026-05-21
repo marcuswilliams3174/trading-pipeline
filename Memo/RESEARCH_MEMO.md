@@ -1,5 +1,5 @@
 
-# Research Memo: Systematic Trading Pipeline
+# Summary
 
 ## Objective
 
